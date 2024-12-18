@@ -3,7 +3,7 @@ package com.unifydream.moviesphere.utlis
 class Constants {
     companion object {
         const val BASE_URL = "https://api.themoviedb.org/3/"
-        const val API_KEY = "6d03648db550f49ebed9bde7c2375c62"
+        const val API_KEY = "XXXXXXXXXXXXXXXXX" // Please enter TMDB API KEY here
         const val BASE_BACKDROP_IMAGE_URL = "https://image.tmdb.org/t/p/w780/"
         const val BASE_POSTER_IMAGE_URL = "https://image.tmdb.org/t/p/w500/"
 
