@@ -1,7 +1,7 @@
 # Movie Sphere App
 The app fetches movies from the TMDB API while leveraging the power of modern Android development with **Jetpack Compose** and other cutting-edge libraries.
 
-### 💡 **Technologies Used:**
+### **Technologies Used:**
 - **Jetpack Compose** – Modern UI Toolkit
 - **TMDB API** – Fetch the latest movies, genres, and more!
 - **Retrofit** – For seamless network calls
@@ -10,6 +10,7 @@ The app fetches movies from the TMDB API while leveraging the power of modern An
 - **Paging3** – Effortless pagination for movie listings
 - **Room DB** – Save and manage your Wishlist
 - **Navigation** – Smooth navigation experience
+- **Coil** - Coil is an image-loading library for Android.
 
 ## How It Works
 1. **Home Screen**: The app starts with an automatic sliding banner featuring the latest movies. Below that, it shows a genres listing, followed by multiple movie sections like "Now Playing", "Popular Movies", "Discover", and "Upcoming Movies".
@@ -25,9 +26,9 @@ The app fetches movies from the TMDB API while leveraging the power of modern An
 - **MVVM Architecture**: Separates UI, business logic, and data management for easy maintainability.
 - **Hilt**: Reduces the boilerplate of manual dependency injection.
 - **Paging3**: Handles large data sets by loading content in chunks.
-- **Room DB**: Local persistence for saving favorite movies.
+- **Room DB**: Local persistence for saving favourite movies.
 - **Navigation**: Handles app navigation in a declarative way.
-- **Coil**: Coil is an image loading library for Android.
+- **Coil**: Coil is an image-loading library for Android.
 - **Junit**: Provides annotations and assertions to create unit tests.
 - **Mockito**: Helps simulate and control external dependencies in tests.
 
