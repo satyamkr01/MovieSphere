@@ -13,7 +13,7 @@ The app fetches movies from the TMDB API while leveraging the power of modern An
 - **Coil** - Coil is an image-loading library for Android.
 
 ## How It Works
-1. **Home Screen**: The app starts with an automatic sliding banner featuring the latest movies. Below that, it shows a genres listing, followed by multiple movie sections like "Now Playing", "Popular Movies", "Discover", and "Upcoming Movies".
+1. **Home Screen**: The app starts with an automatic sliding banner featuring the latest movies. Below that, it shows a genre listing, followed by multiple movie sections like "Now Playing", "Popular Movies", "Discover", and "Upcoming Movies".
 2. **Genres Listing**: Each genre features a scrollable list of movies displayed using **LazyColumn** and **Paging3** for seamless pagination.
 3. **Movie Details**: Click on a movie to see details like its name, description, language, rating, and more.
 4. **Search**: Use the search option to find any movie directly from the server.
@@ -45,9 +45,9 @@ The app fetches movies from the TMDB API while leveraging the power of modern An
 4. Build and run the app on an Android emulator or device.
 
 ## Screenshots
-| Home Screen                         | Exit Popup                      | Now Playing Movies |
+| Home Screen                         | Exit Popup                      | Cast |
 |-------------------------------------|---------------------------------| --- |
-| ![Screenshot 1](home_dashboard.jpg) | ![Screenshot 2](exit_popup.jpg) | ![Screenshot 3](home_dashboard.jpg) |
+| ![Screenshot 1](home_dashboard.jpg) | ![Screenshot 2](exit_popup.jpg) | ![Screenshot 3](cast.jpg) |
 
 | Movie Details                      | Search Movies                     | Favorite Movie                      |
 |------------------------------------|-----------------------------------|-------------------------------------|
